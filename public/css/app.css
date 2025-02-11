@@ -1,0 +1,138 @@
+/* Definición de variables de colores */
+:root {
+    --color-primary: #FD554F; /* Rojo */
+    --color-secondary: #13DCBE; /* Verde-agua */
+    --color-accent: #FCBE27; /* Amarillo */
+    --color-dark: #196EA4; /* Azul */
+    --color-bg: #ffffff; /* Blanco para el fondo */
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--color-bg); /* Fondo blanco */
+    color: #333; /* Color de texto */
+    font-family: 'Arial', sans-serif; /* Fuente básica */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--color-primary); /* Links en color rojo */
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-dark); /* Al pasar el mouse, color azul */
+}
+
+/* Estilo de los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-dark); /* Encabezados en azul */
+}
+
+/* Estilo de botones */
+.btn {
+    background-color: var(--color-primary); /* Botones con color rojo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--color-dark); /* Cambia a azul al pasar el mouse */
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: var(--color-dark); /* Fondo azul para la barra de navegación */
+    padding: 15px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    color: var(--color-secondary); /* Color verde-agua al pasar el mouse */
+}
+
+/* Tarjetas de productos */
+.card {
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Bordes suaves */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.card-header {
+    background-color: var(--color-primary); /* Color de fondo rojo en el encabezado de la tarjeta */
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-footer {
+    background-color: var(--color-secondary); /* Fondo verde-agua en el pie de la tarjeta */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Títulos y subtítulos */
+h1, h2 {
+    color: var(--color-dark); /* Títulos en azul */
+}
+
+/* Estilo para tablas */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table th {
+    background-color: var(--color-accent); /* Fondo amarillo para los encabezados de las tablas */
+    color: #fff;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: var(--color-dark); /* Pie de página con fondo azul */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: var(--color-secondary); /* Verde-agua al pasar el mouse sobre los enlaces del pie de página */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Figtree', sans-serif;
+  }
+  
+  p {
+    font-family: 'Quicksand', sans-serif;
+  }

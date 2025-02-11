@@ -1,0 +1,82 @@
+/* Fondo de la página */
+body {
+    background-color: #F8C9BC; /* Rosa claro */
+    color: #261110; /* Texto en color oscuro */
+}
+
+/* Color de los enlaces */
+a {
+    color: #F558AE; /* Rosa fuerte */
+}
+
+a:hover {
+    color: #F58769; /* Rosa suave */
+}
+
+/* Color de los botones */
+.btn-primary {
+    background-color: #F5A069; /* Naranja suave */
+    border-color: #F5A069;
+}
+
+.btn-primary:hover {
+    background-color: #F58769; /* Rosa suave */
+    border-color: #F58769;
+}
+
+/* Encabezados de las tarjetas */
+.card-header {
+    background-color: #261110; /* Color oscuro */
+    color: #F8C9BC; /* Rosa claro */
+}
+
+/* Cuerpo de las tarjetas */
+.card-body {
+    background-color: #F2D5FF; /* Lavanda suave */
+    color: #261110; /* Texto oscuro */
+}
+
+/* Colores de la tabla */
+.table {
+    border-color: #F2D5FF; /* Lavanda suave */
+}
+
+.table th {
+    background-color: #261110; /* Color oscuro */
+    color: #F8C9BC; /* Rosa claro */
+}
+
+.table td {
+    background-color: #FFFFFF; /* Fondo blanco para las celdas */
+}
+
+/* Fondo de los botones en la barra de navegación */
+.navbar {
+    background-color: #261110; /* Color oscuro para la barra */
+}
+
+.navbar .nav-link {
+    color: #F5A069; /* Naranja suave */
+}
+
+.navbar .nav-link:hover {
+    color: #F558AE; /* Rosa fuerte */
+}
+
+/* Estilos personalizados para el pie de página */
+footer {
+    background-color: #261110; /* Fondo oscuro */
+    color: #F8C9BC; /* Texto rosa claro */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Figtree', sans-serif;
+  }
+  
+  p {
+    font-family: 'Quicksand', sans-serif;
+  }
